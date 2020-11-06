@@ -20,5 +20,11 @@ namespace AspNetCoreWebApplication.Controllers
             ViewData["Message"] = "We've encountered an error :(";
             return View();
         }
+		
+        public IActionResult Get()
+        {
+            ViewData["Message"] = "Hello World!!!";
+            return View();
+        }		
     }
 }
